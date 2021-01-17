@@ -12,3 +12,10 @@ and also - through `Whatsapp`
 
 # Extras
 * [Recommended VS Code Extensions](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Recommended-VSCode-Extensions)
+
+# Links
+* [Typescript](https://www.typescriptlang.org/)
+* [Angular CLI](https://cli.angular.io/)
+* [Node JS](https://nodejs.org/en/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [NPM](https://www.npmjs.com/)
