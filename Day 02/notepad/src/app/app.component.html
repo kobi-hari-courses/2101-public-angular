@@ -1,0 +1,38 @@
+<div class="colors-area">
+  <ul>
+    <li *ngFor="let item of colors"
+      [class.humus]="item===selectedColor"
+      (click)="selectColor(item)"
+
+      >
+      {{item}}
+    </li>
+  </ul>
+</div>
+<div class="fonts-area">
+  <ul>
+    <li *ngFor="let item of fonts"
+      [class.humus]="item===selectedFont"
+      (click)="selectFont(item)"
+    >
+      {{item}}
+    </li>
+  </ul>
+</div>
+<div class="sizes-area">
+  <ul>
+    <li *ngFor="let item of sizes"
+      [class.humus]="item===selectedSize"
+      (click)="selectSize(item)"
+    >
+      {{item}}
+    </li>
+  </ul>
+</div>
+<div class="text-area">
+  <textarea
+    [style.color]="selectedColor"
+    [style.font-family]="selectedFont"
+    [style.font-size]="selectedSize"
+  ></textarea>
+</div>
