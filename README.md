@@ -11,7 +11,8 @@ and also - through `Whatsapp`
 * [Ex 01 - Angular Binding](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Exercise-1---Practice-Angular-Binding)
 
 # Homework
-* [HW 01 - Installations and Your first angular project](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Homework-01---Installation-and-creation-of-a-new-app)
+* HW 01 - Installations and Your first angular project
+    - [Description](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Homework-01---Installation-and-creation-of-a-new-app)
 * HW 02 - Angular Components, deep dive
     - [Presentation](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
     - [Solution Video](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
