@@ -1,0 +1,9 @@
+:host {
+    display: grid;    
+}
+
+.container {
+    display: grid;
+    padding: 4px;
+    color: white;
+}
