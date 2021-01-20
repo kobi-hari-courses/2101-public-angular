@@ -1,0 +1,20 @@
+li {
+    list-style: none;
+    border: 1px solid gray;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+li.humus {
+    background-color: lightgreen;
+    
+}
+
+
+li:hover {
+    background-color: lightgray;
+}
+

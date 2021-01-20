@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-string-selector',
@@ -6,10 +6,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./string-selector.component.css']
 })
 export class StringSelectorComponent implements OnInit {
+  @Input()
+  options: string[] = [];
+
+  @Input()
+  selected: string = '';
+
+  @Output()
+  selectionRequested = new EventEmitter<string>();
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  selectOption(value: string) {
+    this.selectionRequested.emit(value);
   }
 
 }

@@ -1,4 +1,9 @@
 <div class="container" [style.background]="color">
-    <h1>{{caption}}</h1>    
+    <div class="kobi">
+        <ng-content select="[title-image]"></ng-content>
+    </div>
+    <div class="kobi">
+        <ng-content></ng-content>
+    </div>
 </div>
 

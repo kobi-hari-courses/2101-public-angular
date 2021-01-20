@@ -1,11 +1,16 @@
 :host {
     display: grid;
-    grid-template-rows: auto 250px 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
+    grid-template-columns: 1fr 100px;
 } 
 
-.title-area, .text-area {
+.title-area {
     grid-column: 1 / -1;
+}
+
+.text-area {
+    grid-column: 1;
+    grid-row: 2/-1;
 }
 
 div {
@@ -13,23 +18,6 @@ div {
 }
 
 
-li {
-    list-style: none;
-    border: 1px solid gray;
-    margin: 4px;
-    padding: 4px;
-    border-radius: 8px;
-    font-size: 12px;
-    cursor: pointer;
+img {
+    height: 32px;
 }
-
-li.humus {
-    background-color: lightgreen;
-    
-}
-
-
-li:hover {
-    background-color: lightgray;
-}
-

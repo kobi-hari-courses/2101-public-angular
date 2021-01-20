@@ -3,7 +3,20 @@
 }
 
 .container {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 4px;
     color: white;
+}
+
+.container * {
+    margin: 4px;
+}
+
+
+.kobi {
+    border: 1px solid green;
+    margin: 8px;
+    padding: 8px;
 }
