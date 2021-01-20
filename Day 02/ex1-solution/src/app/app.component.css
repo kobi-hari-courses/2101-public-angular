@@ -1,3 +1,61 @@
 :host {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+div {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-area {
+    padding: 30px;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgb(234, 245, 248);
+    transition: 0.5s;
+    user-select: none;
+}
+
+li:hover {
+    background: rgb(178, 206, 214);
+    transform: scale(1.1);
+}
+
+li.was-answered {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+li.selected {
+    background: lightcoral;
+}
+
+li.selected.is-correct {
+    background:lightgreen;
 }
