@@ -8,7 +8,9 @@ and also - through `Whatsapp`
 * [Day 01 - JavaScript, Typescript and intro to Angular](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Day-01-JS-TS-and-Intro-to-Angular)
 
 # Exercises
-* [Ex 01 - Angular Binding](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Exercise-1---Practice-Angular-Binding)
+* Ex 01 - Angular Binding
+    - [Description](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Exercise-1---Practice-Angular-Binding)
+    - [Solution](https://github.com/kobi2294/Course-0121-Public-Angular/tree/main/Day%2002/ex1-solution)
 
 # Homework
 * HW 01 - Installations and Your first angular project
