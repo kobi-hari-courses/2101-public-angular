@@ -1,0 +1,15 @@
+<input #searchBox type="search"
+   (input)="setKeyword(searchBox.value)"
+   [disabled]="isBusy"
+   >
+<button (click)="search()" [disabled]="isBusy">Go</button>
+<img 
+  src="https://media4.giphy.com/media/PnsF0HweRIw2A7K9yp/source.gif"
+  *ngIf="isBusy"
+  >
+
+<hr>
+
+<ul>
+  <li *ngFor="let result of results">{{result}}</li>
+</ul>
