@@ -13,6 +13,7 @@ and also - through `Whatsapp`
 # Homework
 * HW 01 - Installations and Your first angular project
     - [Description](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Homework-01---Installation-and-creation-of-a-new-app)
+    - [Solution](https://github.com/kobi2294/Course-0121-Public-Angular/tree/main/Day%2001/hello-angular)
 * HW 02 - Angular Components, deep dive
     - [Presentation](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
     - [Solution Video](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
