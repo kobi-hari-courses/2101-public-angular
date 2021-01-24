@@ -1,0 +1,10 @@
+<button (click)="getAll()">Get All Shows</button>
+<hr>
+
+<div *ngIf="shows">
+  <div *ngFor="let show of shows">
+      <h2>{{show.name}}</h2>
+      <h3>{{show.premiered}} </h3>
+      <img [src]="show.image.original">
+  </div>
+</div>
