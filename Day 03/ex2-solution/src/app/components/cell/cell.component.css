@@ -1,0 +1,12 @@
+:host {
+    display: grid;
+}
+
+div {
+    background: white;
+}
+
+img {
+    max-width: 90px;
+    max-height: 90px;
+}

@@ -1,0 +1,11 @@
+<div class="board">
+  <div class="row" *ngFor="let row of game.board.items; let rowIndex = index">
+    <div class="cell" *ngFor="let column of row; let colIndex = index">
+      <app-cell [colIndex]="colIndex" [rowIndex]="rowIndex"></app-cell>
+    </div>
+  </div>
+</div>
+
+<h1 *ngIf="game.board.winner === 'X'">X Wins</h1>
+<h1 *ngIf="game.board.winner === 'O'">O Wins</h1>
+<h2>Next turn: {{game.nextItem}}</h2>

@@ -1,0 +1,5 @@
+<div (click)="onUserClick()">
+    <!-- {{colIndex}}, {{rowIndex}} -->
+    <img *ngIf="game.board.items[rowIndex][colIndex] === 'O'" src="assets/O.jpg">
+    <img *ngIf="game.board.items[rowIndex][colIndex] === 'X'" src="assets/X.jpg">
+</div>
