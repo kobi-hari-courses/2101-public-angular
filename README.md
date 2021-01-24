@@ -14,7 +14,7 @@ and also - through `Whatsapp`
     - [Solution](https://github.com/kobi2294/Course-0121-Public-Angular/tree/main/Day%2002/ex1-solution)
 * Ex 02 - Services in Tic Tac Toe
     - [Description](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Ex2-Tic-Tac-Toe-using-Services)
-    - [Solution](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Ex-2-Tic-Tac-Toe-using-Services)
+    - [Solution](https://github.com/kobi2294/Course-0121-Public-Angular/tree/main/Day%2003/ex2-solution)
 
 # Homework
 * HW 01 - Installations and Your first angular project
