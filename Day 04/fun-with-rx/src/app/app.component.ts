@@ -7,6 +7,12 @@ import { BehaviorSubject, interval, Observable, Observer, Subject } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  isShowingReader: boolean = true;
+
+  toggleReader() {
+    this.isShowingReader = !this.isShowingReader;
+  }
+
 
   createObserver(id: number): Observer<number> {
       return {
