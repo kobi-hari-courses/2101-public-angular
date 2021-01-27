@@ -23,10 +23,14 @@ and also - through `Whatsapp`
 * HW 02 - Angular Components, deep dive
     - [Presentation](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
     - [Solution Video](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
+* HW 03 - Services, Promises, DI, Reactive X
+    - [Presentation](https://www.dropbox.com/s/n9pawcvycxv03sx/Description.pptx?dl=0)
+    - [Solution Video](https://www.dropbox.com/s/eba2hohp9z7fzkh/Solution.mp4?dl=0)
 
 # Extras
 * [Recommended VS Code Extensions](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Recommended-VSCode-Extensions)
 * [Angular Binding Rules](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Angular-Binding-Rules)
+* [Reactive X Introduction by Kobi Hari](https://www.dropbox.com/s/05vsshf61oh5p1y/Reactive%20X.mp4?dl=0)
 
 # Links
 * [Typescript](https://www.typescriptlang.org/)
