@@ -1,0 +1,21 @@
+<h1>Today is: {{now$ | async | date:'dd/MM/yyyy'}}</h1>
+<h2>It is now: {{now$ | async | date:'hh:mm:ss'}}</h2>
+
+<h1>{{title | reverse}}</h1>
+
+<ul>
+  <li *ngFor="let color of (words | filter:'ee')">
+    {{color}}
+  </li>
+</ul>
+
+<hr>
+  <ul>
+    <li *ngFor="let color of (words)">
+      {{color}}
+    </li>
+  </ul>  
+
+
+
+<button (click)="modifyArray()">Modify Array</button>

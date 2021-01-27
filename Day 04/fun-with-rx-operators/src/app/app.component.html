@@ -1,0 +1,14 @@
+<h1>Names Search</h1>
+<input type="search" #searchBox (input)="onKeywordChanged(searchBox.value)">
+<span *ngIf="isBusy$ | async">Busy</span>
+
+<ul>
+    <li *ngFor="let res of (results$ | async)">{{res}}</li>
+</ul>
+
+<hr>
+<button (click)="tryHttp()">Try Http</button>
+
+<!-- {{res$|async}}
+{{res$|async}}
+{{res$|async}} -->
