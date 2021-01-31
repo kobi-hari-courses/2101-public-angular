@@ -33,7 +33,7 @@ and also - through `Whatsapp`
 # Final Project
 * [Description](https://github.com/kobi2294/AngularSamples/blob/master/src/todo-app/README.md)
 * [Solution Code](https://github.com/kobi2294/AngularSamples/tree/master/src/todo-app)
-* [Solution Video](https://bit.ly/3j5caWl)
+* [Solution Video](https://youtu.be/6NWdsDs5raI)
 
 # Extras
 * [Recommended VS Code Extensions](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Recommended-VSCode-Extensions)
