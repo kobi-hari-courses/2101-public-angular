@@ -6,13 +6,14 @@ import { MovieDetailsComponent } from './components/movie-details/movie-details.
 import { MovieEditComponent } from './components/movie-edit/movie-edit.component';
 import { MoviesListComponent } from './components/movies-list/movies-list.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { AuthenticationGuard } from './core/guards/authentication.guard';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'}, 
   { path: 'home', component: HomeComponent }, 
   { path: 'movies', component: MoviesListComponent }, 
   { path: 'movies/:mispar', component: MovieDetailsComponent },
-  { path: 'movies/:mispar/edit', component: MovieEditComponent },
+  { path: 'movies/:mispar/edit', component: MovieEditComponent, canActivate: [AuthenticationGuard] },
   { path: 'account', component: AccountComponent }, 
   { path: '**', component: NotFoundComponent}
 ];
