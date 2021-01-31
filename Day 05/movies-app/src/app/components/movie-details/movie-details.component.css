@@ -1,0 +1,16 @@
+:host {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+div.container {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    margin: 10px;
+}
+
+div.image {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+

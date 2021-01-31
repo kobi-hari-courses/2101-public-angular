@@ -1,0 +1,20 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(222, 237, 241);
+}
+
+li {
+    list-style: none;
+}
+
+ul li a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li.po {
+    background-color: lightblue;
+}

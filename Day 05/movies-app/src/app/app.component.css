@@ -1,0 +1,30 @@
+:host {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(202, 246, 202);
+}
+
+nav > .nav-item {
+    padding: 6px;
+    outline: 0px transparent;
+    cursor: pointer;
+}
+
+.seperator {
+    flex: 1;
+}
+
+div.label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+}
+
+nav > .nav-item.here {
+    background-color: lightgreen;
+}
