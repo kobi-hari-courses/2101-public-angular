@@ -9,6 +9,7 @@ and also - through `Whatsapp`
 * [Day 02 - Angular Components in Depth](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Day-02-Angular-Components)
 * [Day 03 - DI Promises and Http](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Day-03-DI-Promises-and-Http)
 * [Day 04 - RxJS and Pipes](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Day-04-RxJS-and-Pipes)
+* [Day 05 - Routing and Forms](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Day-05-Routing-and-Forms)
 
 # Exercises
 * Ex 01 - Angular Binding
@@ -28,6 +29,11 @@ and also - through `Whatsapp`
 * HW 03 - Services, Promises, DI, Reactive X
     - [Presentation](https://www.dropbox.com/s/n9pawcvycxv03sx/Description.pptx?dl=0)
     - [Solution Video](https://www.dropbox.com/s/eba2hohp9z7fzkh/Solution.mp4?dl=0)
+
+# Final Project
+* [Description](https://github.com/kobi2294/AngularSamples/blob/master/src/todo-app/README.md)
+* [Solution Code](https://github.com/kobi2294/AngularSamples/tree/master/src/todo-app)
+* [Solution Video](https://www.dropbox.com/s/caw87ap23y3b2ew/TodoApp.mp4?dl=0)
 
 # Extras
 * [Recommended VS Code Extensions](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Recommended-VSCode-Extensions)
