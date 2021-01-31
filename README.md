@@ -7,6 +7,8 @@ and also - through `Whatsapp`
 # Daily Summaries
 * [Day 01 - JavaScript, Typescript and intro to Angular](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Day-01-JS-TS-and-Intro-to-Angular)
 * [Day 02 - Angular Components in Depth](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Day-02-Angular-Components)
+* [Day 03 - DI Promises and Http](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Day-03-DI-Promises-and-Http)
+* [Day 04 - RxJS and Pipes](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Day-04-RxJS-and-Pipes)
 
 # Exercises
 * Ex 01 - Angular Binding
@@ -23,10 +25,14 @@ and also - through `Whatsapp`
 * HW 02 - Angular Components, deep dive
     - [Presentation](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
     - [Solution Video](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
+* HW 03 - Services, Promises, DI, Reactive X
+    - [Presentation](https://www.dropbox.com/s/n9pawcvycxv03sx/Description.pptx?dl=0)
+    - [Solution Video](https://www.dropbox.com/s/eba2hohp9z7fzkh/Solution.mp4?dl=0)
 
 # Extras
 * [Recommended VS Code Extensions](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Recommended-VSCode-Extensions)
 * [Angular Binding Rules](https://github.com/kobi2294/Course-0121-Public-Angular/wiki/Angular-Binding-Rules)
+* [Reactive X Introduction by Kobi Hari](https://www.dropbox.com/s/05vsshf61oh5p1y/Reactive%20X.mp4?dl=0)
 
 # Links
 * [Typescript](https://www.typescriptlang.org/)
@@ -39,4 +45,8 @@ and also - through `Whatsapp`
     - [Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
     - [Flex Froggy](https://flexboxfroggy.com/)
     - [Complete Guide to FlexBoxes](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-
+* RxJS
+    - [ReactiveX docs](http://reactivex.io/)
+    - [RxJS docs](https://rxjs-dev.firebaseapp.com/)
+    - [Rx Marbles](https://rxmarbles.com/)
+    - [Rx Marble Visualizer](https://rxviz.com/)
