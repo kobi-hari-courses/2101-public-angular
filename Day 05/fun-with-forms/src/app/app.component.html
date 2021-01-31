@@ -1,0 +1,58 @@
+
+<div class="form" [formGroup]="form">
+  <div class="form-field" *ngIf="form.get('username') as field">
+    <label>User Name:</label>
+    <input formControlName="username">
+    <app-error-presenter [errors]="field.errors"></app-error-presenter>   
+  </div>
+  <div class="form-field" *ngIf="form.get('email') as field">
+    <label>Email:</label>
+    <input formControlName="email">    
+    <app-error-presenter [errors]="field.errors"></app-error-presenter>   
+  </div>
+  <div class="form-field" *ngIf="form.get('age') as field">
+    <label>Age:</label>
+    <input type="number" formControlName="age">    
+    <app-error-presenter [errors]="field.errors"></app-error-presenter>   
+  </div>
+
+  <ng-container formGroupName="address">
+    <div class="form-field" *ngIf="form.get('address/city') as field">
+      <label>City:</label>
+      <input formControlName="city">    
+      <app-error-presenter [errors]="field.errors"></app-error-presenter>   
+    </div>
+    <div class="form-field" *ngIf="form.get('address/street') as field">
+      <label>Street:</label>
+      <input formControlName="street">    
+      <app-error-presenter [errors]="field.errors"></app-error-presenter>   
+    </div>
+    
+  </ng-container>
+
+  <div class="form-field" *ngIf="form.get('description') as field">
+    <label>Description:</label>
+    <textarea formControlName="description"></textarea>
+    <app-error-presenter [errors]="field.errors"></app-error-presenter>   
+  </div>
+  
+
+</div>
+
+<button [disabled]="form.invalid">Submit</button>
+
+
+
+<hr>
+<pre>
+  value = {{form.value | json}}
+</pre>
+<pre>
+  valid = {{form.valid}}
+</pre>
+<pre>
+  errors = {{getControl('description').errors | json }}
+</pre>
+<pre>
+  dirty = {{form.dirty}}
+</pre>

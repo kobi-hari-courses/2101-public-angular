@@ -1,0 +1,7 @@
+<div *ngIf="errors">
+    <div *ngIf="errors['required'] as err">Required!</div>
+    <div *ngIf="errors['email'] as err">Please use email format</div>
+    <div *ngIf="errors['maxlength'] as err">Limit: {{err.requiredLength}}, Actual: {{err.actualLength}}</div>
+    <div *ngIf="errors['minlength'] as err">Required: {{err.requiredLength}}, Actual: {{err.actualLength}}</div>
+    <div *ngIf="errors['minWords'] as err">Required: {{err.required}} words, Actual: {{err.actual}} words</div>
+</div>
